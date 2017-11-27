@@ -29,8 +29,52 @@
 </nav>
 
 <div class="container">
-
+    <div class="section">
+        <div class="row">
+            <div class="col s12">
+                <h2>Post title</h2>
+                <p class="flow-text">Post content</p>
+            </div>
+        </div>
+        <div class="divider"></div>
+        <div class="row">
+            <div class="col s12">
+                <h2>Post title</h2>
+                <p class="flow-text">Post content</p>
+            </div>
+        </div>
+        <div class="divider"></div>
+        <div class="row">
+            <div class="col s12">
+                <h2>Post title</h2>
+                <p class="flow-text">Post content</p>
+            </div>
+        </div>
+        <div class="divider"></div>
+    </div>
 </div>
+
+<footer class="page-footer">
+
+    <div class="container">
+        <div class="row">
+            <div class="col s12">
+                <h5>Contact</h5>
+                <p class="valign-wrapper"><i class="material-icons margin-right">email</i>
+                    <a class="white-text" href="mailto:tom.dobbelaere@outlook.com">tom.dobbelaere@outlook.com</a></p>
+                <p class="valign-wrapper"><i class="material-icons margin-right">phone</i>+32 471 43 76 55</p>
+
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+            Site made by Tom Dobbelaere using
+            <a class="white-text" href="http://materializecss.com">Materialize</a>
+            and <a class="white-text" href="https://laravel.com/">Laravel</a>
+        </div>
+    </div>
+</footer>
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="js/materialize.min.js"></script>
