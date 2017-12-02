@@ -1,11 +1,9 @@
-@extends('partials/master')
+@extends('partials.master')
 
 @section('content')
-    <div class="section">
-        @foreach ($posts as $post)
-            @include('partials/post')
-        @endforeach
-    </div>
-
-    {{ $posts->links() }}
+    <h3 class="typewriter">Hello World</h3>
+    <div class="divider"></div>
+    <p>
+        Todo: appropriate intro here?
+    </p>
 @endsection
