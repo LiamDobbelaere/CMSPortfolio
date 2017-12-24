@@ -2,6 +2,6 @@
 
 @section('content')
     <div class="section">
-        @include('partials/post')
+        @include('partials/post', array('showComments' => 'true'))
     </div>
 @endsection
