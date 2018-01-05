@@ -8,11 +8,14 @@
         @if(isset($showComments))
             <form class="col s12" method="post" action="{{ '/posts/'.$post->id }}">
                 {{ csrf_field() }}
+
+                @if (Auth::check())
                 <div class="row">
                     <div class="input-field col s12">
                         <input class="btn btn-primary red" type="submit" value="Delete"/>
                     </div>
                 </div>
+                @endif
 
                 @if (isset($post))
                     {{ method_field('DELETE') }}
@@ -21,11 +24,13 @@
 
             <form class="col s12" method="get" action="{{ '/posts/'.$post->id.'/edit' }}">
                 {{ csrf_field() }}
+                @if (Auth::check())
                 <div class="row">
                     <div class="input-field col s12">
                         <input class="btn btn-primary orange" type="submit" value="Edit"/>
                     </div>
                 </div>
+                @endif
             </form>
 
             <h5>Comments</h5>
